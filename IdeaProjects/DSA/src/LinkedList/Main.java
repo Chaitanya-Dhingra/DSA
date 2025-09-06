@@ -1,0 +1,16 @@
+package LinkedList;
+
+public class Main {
+    public static void main(String[] args) {
+        LL list= new LL();
+        list.insertFirst(3);
+        list.insertFirst(2);
+        list.insertLast(1);
+        list.insert(4,1);
+        list.display();
+        list.length();
+        list.delete(2);
+        list.display();
+        list.length();
+    }
+}
