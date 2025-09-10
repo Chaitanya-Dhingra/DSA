@@ -13,14 +13,20 @@ public class Main {
 //        list.display();
 //        list.length();
 
-        DLL list = new DLL();
-        list.insertFirst(7);
-        list.insertLast(8);
+//        DLL list = new DLL();
+//        list.insertFirst(7);
+//        list.insertLast(8);
+//        list.display();
+//        list.insertFirst(6);
+//        list.insert(4,1);
+//        list.display();
+//        list.displayReverse();
+//        System.out.println(list.length());
+
+        CLL list= new CLL();
+        list.insertFirst(17);
+        list.insertFirst(18);
+        list.insertLast(19);
         list.display();
-        list.insertFirst(6);
-        list.insert(4,1);
-        list.display();
-        list.displayReverse();
-        System.out.println(list.length());
     }
 }
