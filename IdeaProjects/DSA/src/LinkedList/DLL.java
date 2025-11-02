@@ -53,7 +53,7 @@ public class DLL {
 
     public int length()
     {
-        return size;
+        return this.size;
     }
 
     public void insertFirst(int value)

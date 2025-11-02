@@ -6,7 +6,8 @@ public class LL {
 
     private int size;
 
-    public LL(){
+    public LL()
+    {
         this.size=0;
     }
 
@@ -64,6 +65,23 @@ public class LL {
             temp.next=node;
             size++;
         }
+    }
+
+    public void insertRec(int value, int index)
+    {
+        head=insertRec(value, index, head);
+    }
+
+    private Node insertRec(int val, int index, Node node)
+    {
+        if(index==0)
+        {
+            Node temp=new Node(val,node);
+            size++;
+            return temp;
+        }
+        node.next=insertRec(val,index-1,node.next);
+        return node;
     }
 
     public void deleteFirst()
