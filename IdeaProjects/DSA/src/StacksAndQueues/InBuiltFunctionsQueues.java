@@ -1,5 +1,7 @@
 package StacksAndQueues;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -21,6 +23,10 @@ public class InBuiltFunctionsQueues {
         System.out.println(queue.remove());
         System.out.println(queue.peek());
 
-
+        // Deque- adding and removing from both the sides is possible
+        Deque<Integer> deque = new ArrayDeque<>();
+        deque.add(89);
+        deque.addFirst(78);
+        //all other functions of deque
     }
 }
