@@ -12,7 +12,7 @@ public class nKnights {
             return;
         }
 
-        if (r == board.length - 1 && c == board[0].length)
+        if (r == board.length-1 && c == board[0].length)
         {
             return;
         }
