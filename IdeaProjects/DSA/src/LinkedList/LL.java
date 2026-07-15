@@ -1,6 +1,6 @@
 package LinkedList;
 
-public class LL {
+public class    LL {
     private Node head;
     private Node tail;
 
